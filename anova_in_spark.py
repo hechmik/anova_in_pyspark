@@ -2,7 +2,7 @@ from pyspark.sql.functions import lit, avg, count, udf, struct, sum
 from pyspark.sql.types import DoubleType
 
 
-def anova_in_spark(df, categorical_var, continuous_var):
+def one_way_anova(df, categorical_var, continuous_var):
     """
     Given a Spark Dataframe, compute the one-way ANOVA using the given categorical and continuous variables.
     :param df: Spark Dataframe

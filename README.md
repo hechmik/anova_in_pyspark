@@ -1,5 +1,5 @@
 # One-way ANOVA in PySpark
-
+*If you think this repository was useful for solving your problem please leave a Star!*
 This my one-way ANOVA implementation from scratch using PySpark. The reason why I did that is that at this moment neither Spark's library MLLib either Spark 2.4.4 itself have a function that allows to perform One-Way ANOVA.
 
 ## Information returned by the function
@@ -52,3 +52,6 @@ ipython kernel install --user --name=anova_spark'
 ```bash
 jupyter notebook
 ```
+
+# How to collaborate
+If you find any error or have any suggestion on how to improve this function please feel free to open a Pull Request or an Issue!
